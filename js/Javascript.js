@@ -3,12 +3,9 @@ function saludo()
     alert("Hola mundo");
 }
 
-var number=0;
 
-var numero2=0;
-
-function suma()
+function suma(numero1, numero2)
 {
-    let resultado = number+numero2;
+    let resultado = numero1+numero2;
     return resultado;
 }
